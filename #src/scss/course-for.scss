@@ -193,7 +193,7 @@
     @media (max-width: 650px){
       width: 20px;
       height: 20px;
-      top: 0;
+      top: 6px;
     }
     svg{
       width: 100%;
@@ -208,7 +208,7 @@
         svg{
           fill:#10628f!important;
           @media (max-width: 768px){
-            fill:black;
+            fill:black!important;
           }
         }
       }

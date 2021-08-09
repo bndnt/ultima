@@ -8,7 +8,7 @@
     //}
   }
   &__wrapper{
-    padding: 82px 0;
+    padding: 82px 0 43px;
     @media (max-width: 1200px){
       padding: 50px 0;
     }
@@ -16,9 +16,14 @@
       padding: 0 0 40px;
     }
     @media (max-width: 650px){
-      padding: 58px 0 18px;
+      padding: 58px 30px;
     }
   }
+ .span-hide{
+   @media (max-width: 650px) {
+     display: none;
+   }
+ }
   &__title{
     font-style: normal;
     //font-weight: 600;
@@ -48,20 +53,20 @@
     }
   }
   .mentorsSwiper{
-    height: 545px;
+    height: 569px;
     margin-top: 40px;
     width: 100%;
     @media (max-width: 1200px){
-      height: 530px;
+      height: 558px;
     }
     @media (max-width: 991px){
-      height: 470px;
+      height: 486px;
     }
     @media (max-width: 768px){
-      height: 440px;
+      height: 463px;
     }
     @media (max-width: 650px){
-      height: 283px;
+      height: 306px;
       margin-top: 19px;
     }
   }
@@ -118,6 +123,12 @@
     line-height: 28px;
     margin-top: 30px;
     color: #10AAFF;
+    white-space: nowrap;
+    .br-span{
+      @media (max-width: 650px) {
+display: block;
+      }
+    }
     @media (max-width: 1200px){
       font-size: 30px;
       margin-top: 28px;
@@ -125,12 +136,13 @@
     @media (max-width: 991px){
       font-size: 24px;
       margin-top: 20px;
+      //white-space: normal;
     }
     @media (max-width: 650px){
       font-size: 18px;
       line-height: 15px;
-      margin-top: 10px;
-      white-space: nowrap;
+      margin-top: 15px;
+
     }
   }
   &__slide-name{
@@ -151,7 +163,7 @@
     @media (max-width: 650px){
       font-size: 16px;
       line-height: 14px;
-      margin-top: 10px;
+      margin-top: 2px;
     }
   }
   &__slide-occupation{

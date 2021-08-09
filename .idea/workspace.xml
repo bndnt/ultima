@@ -2,22 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50f78d95-a9ba-46b9-a6c5-65b4588b5b0a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/#src/_boost-sales.html" beforeDir="false" afterPath="$PROJECT_DIR$/#src/_boost-sales.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/#src/_course-for.html" beforeDir="false" afterPath="$PROJECT_DIR$/#src/_course-for.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/#src/_get-to-know.html" beforeDir="false" afterPath="$PROJECT_DIR$/#src/_get-to-know.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/_price.html" beforeDir="false" afterPath="$PROJECT_DIR$/#src/_price.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/#src/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/_mentors.html" beforeDir="false" afterPath="$PROJECT_DIR$/#src/_mentors.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/img/bg-color-top.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/#src/img/bg-color-top.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/img/mentors1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/#src/img/mentors1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/img/mentors2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/#src/img/mentors2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/img/mentors3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/#src/img/mentors3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/img/mentors4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/#src/img/mentors4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/scss/boost-sales.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#src/scss/boost-sales.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/#src/scss/course-for.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#src/scss/course-for.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/#src/scss/course-works.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#src/scss/course-works.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/scss/faq.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#src/scss/faq.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/#src/scss/fastest-way.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#src/scss/fastest-way.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/scss/fixed.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#src/scss/fixed.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/scss/get-to-know.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#src/scss/get-to-know.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/scss/mentors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#src/scss/mentors.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/scss/price.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#src/scss/price.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/scss/top-colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#src/scss/top-colors.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ultima/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/ultima/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ultima/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/ultima/css/style.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultima/img/bg-color-top.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ultima/img/bg-color-top.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultima/img/mentors1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ultima/img/mentors1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultima/img/mentors2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ultima/img/mentors2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultima/img/mentors3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ultima/img/mentors3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultima/img/mentors4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ultima/img/mentors4.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ultima/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ultima/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ultima/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/ultima/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ultima/js/script.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/ultima/js/script.min.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +97,7 @@
       <workItem from="1628165812796" duration="647000" />
       <workItem from="1628172924175" duration="10283000" />
       <workItem from="1628238851792" duration="66794000" />
-      <workItem from="1628409379381" duration="43345000" />
+      <workItem from="1628409379381" duration="49106000" />
     </task>
     <servers />
   </component>

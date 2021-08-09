@@ -863,6 +863,7 @@ body {
   color: #23A2E8;
   margin-top: 51px;
   text-align: right;
+  white-space: nowrap;
 }
 
 .boost-sales__numbers-title span {
@@ -1208,7 +1209,7 @@ body {
 }
 
 .mentors__wrapper {
-  padding: 82px 0;
+  padding: 82px 0 43px;
 }
 
 .mentors__title {
@@ -1225,7 +1226,7 @@ body {
 }
 
 .mentors .mentorsSwiper {
-  height: 545px;
+  height: 569px;
   margin-top: 40px;
   width: 100%;
 }
@@ -1258,6 +1259,7 @@ body {
   line-height: 28px;
   margin-top: 30px;
   color: #10AAFF;
+  white-space: nowrap;
 }
 
 .mentors__slide-name {
@@ -1701,7 +1703,7 @@ body {
   line-height: 150%;
   text-transform: uppercase;
   color: #000000;
-  font-family: "CodecPro-News";
+  font-family: "CodecPro-Bold";
 }
 
 .price__under-price {
@@ -1740,7 +1742,7 @@ body {
   line-height: 55px;
   color: rgba(255, 255, 255, 0.4);
   margin-right: 18px;
-  width: 104px;
+  width: 125px;
 }
 
 .price__under-old-price strong {
@@ -2404,7 +2406,7 @@ body {
   }
 
   .mentors .mentorsSwiper {
-    height: 530px;
+    height: 558px;
   }
 
   .mentors__slide {
@@ -2682,7 +2684,7 @@ body {
   }
 
   .mentors .mentorsSwiper {
-    height: 470px;
+    height: 486px;
   }
 
   .mentors__slide {
@@ -2793,7 +2795,7 @@ body {
 
   .price__under-old-price {
     font-size: 20px;
-    width: 90px;
+    width: 110px;
   }
 
   .price__under-old-price strong {
@@ -2833,6 +2835,10 @@ body {
 
   .faq__title {
     font-size: 40px;
+  }
+
+  .faq__question:last-child {
+    max-width: 252px;
   }
 
   .faq__question {
@@ -2953,7 +2959,7 @@ body {
   }
 
   .course-for__det-top:hover .course-for__open-block svg {
-    fill: black;
+    fill: black !important;
   }
 
   .course-for__open-more {
@@ -2986,7 +2992,7 @@ body {
   }
 
   .mentors .mentorsSwiper {
-    height: 440px;
+    height: 463px;
   }
 
   .mentors__slide {
@@ -3012,7 +3018,7 @@ body {
   }
 
   .course-works__wrapper {
-    padding: 30px 0 22px;
+    padding: 3px 0 22px;
   }
 
   .course-works__main-title {
@@ -3265,6 +3271,10 @@ body {
     font-size: 38px;
   }
 
+  .top-color__text br {
+    display: block;
+  }
+
   .top-color__text {
     font-size: 16px;
     margin-top: 15px;
@@ -3394,7 +3404,7 @@ body {
   .course-for__open-block {
     width: 20px;
     height: 20px;
-    top: 0;
+    top: 6px;
   }
 
   .course-for__det-hidden {
@@ -3460,7 +3470,11 @@ body {
   }
 
   .mentors__wrapper {
-    padding: 58px 0 18px;
+    padding: 58px 30px;
+  }
+
+  .mentors .span-hide {
+    display: none;
   }
 
   .mentors__title {
@@ -3468,7 +3482,7 @@ body {
   }
 
   .mentors .mentorsSwiper {
-    height: 283px;
+    height: 306px;
     margin-top: 19px;
   }
 
@@ -3481,17 +3495,20 @@ body {
     border-radius: 10px;
   }
 
+  .mentors__slide-title .br-span {
+    display: block;
+  }
+
   .mentors__slide-title {
     font-size: 18px;
     line-height: 15px;
-    margin-top: 10px;
-    white-space: nowrap;
+    margin-top: 15px;
   }
 
   .mentors__slide-name {
     font-size: 16px;
     line-height: 14px;
-    margin-top: 10px;
+    margin-top: 2px;
   }
 
   .mentors__slide-occupation {
@@ -3578,7 +3595,7 @@ body {
     left: auto;
     right: -30px;
     display: block;
-    top: 3px;
+    top: 7px;
   }
 
   .fastest-way .container {
@@ -3586,7 +3603,7 @@ body {
   }
 
   .fastest-way__wrapper {
-    padding: 32px 0 30px;
+    padding: 28px 0 30px;
   }
 
   .fastest-way__title {
@@ -3728,7 +3745,7 @@ body {
   }
 
   .faq__wrapper {
-    padding: 17px 0 13px;
+    padding: 50px 0 13px;
   }
 
   .faq__title {
@@ -3881,12 +3898,6 @@ body {
 @media (max-width: 386px) {
   .top-color__text {
     max-width: 100%;
-  }
-}
-
-@media (max-width: 375px) {
-  .top-color__text br {
-    display: block;
   }
 }
 
