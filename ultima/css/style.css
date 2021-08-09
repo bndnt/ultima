@@ -1073,6 +1073,11 @@ body {
   height: 34px;
 }
 
+.course-for__icon-marketing img {
+  width: 50px;
+  height: 50px;
+}
+
 .course-for__icon-google-gmail img {
   width: 43.77px;
   height: 33px;
@@ -2423,6 +2428,10 @@ body {
     font-size: 15px;
   }
 
+  .get-to-know__wrapper {
+    padding: 50px 0 50px;
+  }
+
   .get-to-know__title {
     font-size: 46px;
   }
@@ -2943,6 +2952,10 @@ body {
     width: 100%;
   }
 
+  .course-for__det-top:hover .course-for__open-block svg {
+    fill: black;
+  }
+
   .course-for__open-more {
     padding-left: 0;
     padding-right: 30px;
@@ -2994,6 +3007,10 @@ body {
     padding-right: 30px;
   }
 
+  .get-to-know__top-item:hover .course-for__open-block svg {
+    fill: black;
+  }
+
   .course-works__wrapper {
     padding: 30px 0 22px;
   }
@@ -3043,10 +3060,6 @@ body {
     right: 0;
     display: block;
     top: 0;
-  }
-
-  .course-works__title:hover .course-for__open-block svg {
-    fill: #167fb9;
   }
 
   .course-works__title {
@@ -3402,7 +3415,7 @@ body {
   }
 
   .course-for__detail-icon-block-mobile svg {
-    width: 40% !important;
+    width: 50% !important;
   }
 
   .course-for__icon-google-analytics svg {
@@ -3410,14 +3423,19 @@ body {
     height: 20px;
   }
 
+  .course-for__icon-marketing img {
+    width: 35px !important;
+    height: 35px;
+  }
+
   .course-for__icon-google-gmail img {
-    width: 30px;
-    height: 20px;
+    width: 36px;
+    height: 28px;
   }
 
   .course-for__icon-ux svg {
-    width: 25px;
-    height: 11px;
+    width: 30px;
+    height: 18px;
   }
 
   .course-for__open-more-icon {
@@ -3569,10 +3587,6 @@ body {
 
   .fastest-way__wrapper {
     padding: 32px 0 30px;
-  }
-
-  .fastest-way__title .br-mob {
-    display: block;
   }
 
   .fastest-way__title {
@@ -3752,7 +3766,7 @@ body {
 
   .fixed {
     height: 70px;
-    background: rgba(255, 255, 255, 0.01);
+    background-color: rgba(255, 255, 255, 0.01);
     -webkit-backdrop-filter: blur(60px);
             backdrop-filter: blur(60px);
   }
@@ -3849,6 +3863,12 @@ body {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+  }
+}
+
+@media (max-width: 440px) {
+  .fastest-way__title .br-mob {
+    display: block;
   }
 }
 

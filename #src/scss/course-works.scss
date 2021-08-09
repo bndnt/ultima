@@ -171,13 +171,13 @@
     transition:all .4s ;
     &:hover{
       color: #167fb9;
-      @media (max-width: 768px){
-        .course-for__open-block{
-          svg{
-            fill:#167fb9;
-          }
-        }
-      }
+      //@media (max-width: 768px){
+      //  .course-for__open-block{
+      //    svg{
+      //      fill:#167fb9;
+      //    }
+      //  }
+      //}
     }
     @media (max-width: 768px) {
       cursor: pointer;

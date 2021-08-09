@@ -35,10 +35,10 @@ $(document).on('click', '.get-to-know__top-item', function (e) {
 
 
 // var openHide2 = document.querySelectorAll('.get-to-know__point-hide');
-document.querySelector('.js-get-to-know__open-more').addEventListener('click', function () {
-    this.classList.toggle('active')
-    document.querySelector('.js-get-to-know__hide-whole-block').classList.toggle('active')
-})
+// document.querySelector('.js-get-to-know__open-more').addEventListener('click', function () {
+//     this.classList.toggle('active')
+//     document.querySelector('.js-get-to-know__hide-whole-block').classList.toggle('active')
+// })
 
 
 $(document).on('click', '.course-works__title', function (e) {
@@ -110,7 +110,7 @@ $("#second").inputmask("+55 (99) 99999-9999");
 
 if ($(window).width() > 769) {
     $(".faq__flex").hover(function () {
-        $(this).find('.faq__ask').fadeIn(800);
+        $(this).find('.faq__ask').fadeIn(1000);
         console.log(1)
     }, function () {
         $(this).find('.faq__ask').hide();

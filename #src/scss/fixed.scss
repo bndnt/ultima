@@ -19,8 +19,11 @@
     //background-image: url("../img/bg0fixed.png");
     //background-repeat: no-repeat;
     //background-size: cover;
-    background: rgba(255, 255, 255, 0.01);
+    background-color: rgba(255, 255, 255, 0.01);
     backdrop-filter: blur(60px);
+    //-moz-bacdrop-filter:blur(60px);
+    //-webkit-backdrop-filter: blur(60px);
+    //-moz-background: red;
   }
   &__block {
     display: flex;
