@@ -9,7 +9,7 @@
       padding: 33px 15px 118px;
     }
     @media (max-width: 650px){
-      padding: 33px 15px 86px;
+      padding: 33px 20px 86px;
     }
 
   }
@@ -44,10 +44,15 @@
   }
   &__flex{
     display: flex;
-
     font-family: 'PTRootUI-Regular';
     @media (max-width: 991px){
       flex-wrap: wrap;
+    }
+    @media (max-width: 650px){
+      justify-content: space-between;
+    }
+    @media (max-width: 500px){
+      width: 100%;
     }
     a{
       font-style: normal;
@@ -64,13 +69,21 @@
     }
     span{
       display: block;
-
+.br-mob{
+  display: none;
+  //@media (max-width: 500px) {
+  //  display: block;
+  //}
+}
       @media (max-width: 991px){
         margin-bottom: 30px!important;
       }
       &:first-child{
         @media (max-width: 650px) {
           order: 1;
+        }
+        @media (max-width: 500px) {
+          width: 100%;
         }
       }
       &:nth-child(2){
@@ -88,15 +101,21 @@
       &:last-child{
         @media (max-width: 650px) {
           margin: 0 35px;
+          //margin: 0;
         }
-        @media (max-width: 360px) {
-          margin: 0 20px;
+        @media (max-width: 500px) {
+          margin: 0;
+
         }
       }
     }
   }
   &__links-soc{
     display: flex;
+    @media (max-width: 500px){
+      width: 100%;
+      justify-content: space-between;
+    }
   }
   &__soc-block{
     width: 20px;
@@ -115,6 +134,7 @@
       margin-right: 34px;
       margin-bottom: 40px;
     }
+
     @media (max-width: 360px){
       margin-right: 25px;
     }

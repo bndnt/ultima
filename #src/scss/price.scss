@@ -51,7 +51,7 @@
       white-space: nowrap;
     }
     @media (max-width: 768px){
-      top: 40px;
+      top: 20px;
       right: 13px;
       left: auto;
       border-radius:15px ;
@@ -123,9 +123,12 @@
     background-size: cover;
     border-radius: 40px;
     width: 100%;
+    max-width: 700px;
     margin-top: 58px;
     padding: 93px 55px 50px;
     @media (max-width: 768px){
+      max-width: 100%;
+      margin-top: 40px;
       padding: 30px 30px 100px;
       display: flex;
       flex-direction: row-reverse;

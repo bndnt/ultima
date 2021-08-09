@@ -638,7 +638,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 40px;
-  padding: 65px 48px 95px;
+  padding: 50px 48px 90px;
   position: relative;
   z-index: 1;
 }
@@ -1559,6 +1559,10 @@ body {
   width: 80%;
 }
 
+.fastest-way__title .br-mob {
+  display: none;
+}
+
 .fastest-way__title span {
   color: #23A2E8;
 }
@@ -1577,6 +1581,10 @@ body {
 .fastest-way__points {
   margin-top: 61px;
   padding-left: 90px;
+}
+
+.fastest-way__points .br-mob {
+  display: none;
 }
 
 .fastest-way__flex {
@@ -1677,6 +1685,7 @@ body {
   background-size: cover;
   border-radius: 40px;
   width: 100%;
+  max-width: 700px;
   margin-top: 58px;
   padding: 93px 55px 50px;
 }
@@ -1967,14 +1976,6 @@ body {
   display: flex;
 }
 
-.faq__flex:hover .faq__ask {
-  opacity: 1;
-  visibility: visible;
-  -webkit-transition: all .1s;
-  -o-transition: all .1s;
-  transition: all .1s;
-}
-
 .faq__question {
   width: -webkit-max-content;
   width: -moz-max-content;
@@ -1988,10 +1989,14 @@ body {
   color: #FFFFFF;
   margin-bottom: 10px;
   cursor: pointer;
-  -webkit-transition: all .4s;
-  -o-transition: all .4s;
-  transition: all .4s;
+  -webkit-transition: all .6s;
+  -o-transition: all .6s;
+  transition: all .6s;
   font-family: 'Gilroy-Bold';
+}
+
+.faq__question .br-mob {
+  display: none;
 }
 
 .faq__question:hover {
@@ -2008,11 +2013,7 @@ body {
   font-size: 20px;
   line-height: 25px;
   color: #000000;
-  opacity: 0;
-  visibility: hidden;
-  -webkit-transition: all .8s;
-  -o-transition: all .8s;
-  transition: all .8s;
+  display: none;
 }
 
 .faq__ask1 {
@@ -2129,6 +2130,10 @@ body {
 
 .footer__flex span {
   display: block;
+}
+
+.footer__flex span .br-mob {
+  display: none;
 }
 
 .footer__flex span:nth-child(2) {
@@ -2431,6 +2436,10 @@ body {
     padding-left: 0;
   }
 
+  .course-works__wrapper {
+    padding: 30px 0;
+  }
+
   .course-works__main-title {
     font-size: 46px;
   }
@@ -2691,7 +2700,7 @@ body {
   }
 
   .get-to-know__wrapper {
-    padding: 40px 0 50px;
+    padding: 40px 0 30px;
   }
 
   .get-to-know__title {
@@ -2703,7 +2712,7 @@ body {
   }
 
   .course-works__wrapper {
-    padding: 30px 0;
+    padding: 0 0 30px;
   }
 
   .course-works__main-title {
@@ -2910,7 +2919,6 @@ body {
 
   .boost-sales__numbers-title {
     font-size: 36px;
-    font-family: 'CodecPro-Bold';
   }
 
   .boost-sales__numbers-title span {
@@ -2993,10 +3001,11 @@ body {
   .course-works__main-title {
     font-size: 36px;
     line-height: 115%;
+    margin-bottom: 20px;
   }
 
   .course-works__content {
-    width: 100%;
+    width: calc(100% - 50px - 15px);
   }
 
   .course-works__blocks {
@@ -3021,9 +3030,6 @@ body {
     margin-bottom: 26px;
     padding-right: 30px;
     position: relative;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
   }
 
   .course-works__info-flex {
@@ -3063,6 +3069,7 @@ body {
     font-size: 26px;
     max-width: 100%;
     line-height: 32px;
+    padding-left: 0;
   }
 
   .price__wrapper {
@@ -3070,7 +3077,7 @@ body {
   }
 
   .price .price-sale {
-    top: 40px;
+    top: 20px;
     right: 13px;
     left: auto;
     border-radius: 15px;
@@ -3084,6 +3091,8 @@ body {
   }
 
   .price__under {
+    max-width: 100%;
+    margin-top: 40px;
     padding: 30px 30px 100px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3156,8 +3165,13 @@ body {
     display: none;
   }
 
+  .faq__wrapper {
+    padding: 55px 0 50px;
+  }
+
   .faq__title {
     font-size: 36px;
+    margin-bottom: 30px;
   }
 
   .faq__flex {
@@ -3379,7 +3393,7 @@ body {
   }
 
   .course-for__open-more-text {
-    font-size: 21px;
+    font-size: 20px;
   }
 
   .course-for__icon-CJM svg {
@@ -3407,7 +3421,7 @@ body {
   }
 
   .course-for__open-more-icon {
-    right: -7px;
+    right: -5px;
   }
 
   .for .container {
@@ -3529,19 +3543,36 @@ body {
     margin-bottom: 20px;
   }
 
+  .course-works__content {
+    width: calc(100% - 50px - 13px);
+  }
+
+  .course-works__info-flex:first-child {
+    margin-bottom: 26px;
+    padding-right: 30px;
+    position: relative;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
   .course-works .course-for__open-block {
     left: auto;
     right: -30px;
     display: block;
-    top: 0;
+    top: 3px;
   }
 
   .fastest-way .container {
-    padding: 0 5px 0 10px;
+    padding: 0 12px 0 19px;
   }
 
   .fastest-way__wrapper {
     padding: 32px 0 30px;
+  }
+
+  .fastest-way__title .br-mob {
+    display: block;
   }
 
   .fastest-way__title {
@@ -3691,8 +3722,18 @@ body {
     margin-bottom: 28px;
   }
 
+  .faq__question .br-mob {
+    display: block;
+  }
+
   .footer__wrapper {
-    padding: 33px 15px 86px;
+    padding: 33px 20px 86px;
+  }
+
+  .footer__flex {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
 
   .footer__flex span:first-child {
@@ -3749,12 +3790,18 @@ body {
   }
 }
 
+@media (max-width: 570px) {
+  .fastest-way__points .br-mob {
+    display: block;
+  }
+}
+
 @media (max-width: 550px) {
   .top-color__menu {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    padding-right: 15px;
+    padding: 0;
   }
 
   .course-works__image {
@@ -3777,16 +3824,31 @@ body {
     margin-bottom: 20px;
   }
 
-  .course-for__detail-title {
-    font-size: 16px;
-  }
-
   .course-for__det-hidden {
     font-size: 16px;
   }
 
   .get-to-know__top-item-title-text {
     font-size: 18px;
+  }
+
+  .footer__flex {
+    width: 100%;
+  }
+
+  .footer__flex span:first-child {
+    width: 100%;
+  }
+
+  .footer__flex span:last-child {
+    margin: 0;
+  }
+
+  .footer__links-soc {
+    width: 100%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
 }
 
@@ -3854,10 +3916,6 @@ body {
     margin-right: 13px;
   }
 
-  .course-works__title {
-    font-size: 18px;
-  }
-
   .course-works__text {
     font-size: 16px;
   }
@@ -3914,10 +3972,6 @@ body {
   .faq__ask {
     font-size: 16px;
     line-height: 22px;
-  }
-
-  .footer__flex span:last-child {
-    margin: 0 20px;
   }
 
   .footer__soc-block {

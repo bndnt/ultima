@@ -22,7 +22,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 40px;
-    padding: 65px 48px 95px;
+    padding: 50px 48px 90px;
     position: relative;
     z-index: 1;
     @media (max-width: 1200px){
@@ -103,7 +103,7 @@
     padding: 12px;
     @media (max-width: 550px){
       justify-content: space-between;
-      padding-right: 15px;
+      padding: 0;
     }
   }
   &__menu-point{
