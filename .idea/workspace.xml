@@ -4,8 +4,6 @@
     <list default="true" id="50f78d95-a9ba-46b9-a6c5-65b4588b5b0a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/#src/scss/price.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#src/scss/price.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ultima/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/ultima/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ultima/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/ultima/css/style.min.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +74,7 @@
       <workItem from="1628165812796" duration="647000" />
       <workItem from="1628172924175" duration="10283000" />
       <workItem from="1628238851792" duration="66794000" />
-      <workItem from="1628409379381" duration="53507000" />
+      <workItem from="1628409379381" duration="53855000" />
     </task>
     <servers />
   </component>
