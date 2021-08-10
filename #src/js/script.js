@@ -40,7 +40,7 @@ $(document).on('click', '.get-to-know__top-item', function (e) {
 //     document.querySelector('.js-get-to-know__hide-whole-block').classList.toggle('active')
 // })
 
-if ($(window).width() > 769) {
+if ($(window).width() < 769) {
     $(document).on('click', '.course-works__title', function (e) {
         if ($(this).parents('.course-works__info-flex').hasClass('active')) {
             // console.log(1)
@@ -110,7 +110,7 @@ $("#second").inputmask("+55 (99) 99999-9999");
 
 if ($(window).width() > 769) {
     $(".faq__flex").hover(function () {
-        $(this).find('.faq__ask').fadeIn(1000);
+        $(this).find('.faq__ask').show();
         console.log(1)
     }, function () {
         $(this).find('.faq__ask').hide();
