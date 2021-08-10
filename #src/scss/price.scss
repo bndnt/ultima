@@ -19,7 +19,7 @@
       padding: 30px 14px 390px 14px;
     }
     @media (max-width: 650px){
-      padding: 25px 13px 164px 13px;
+      padding: 25px 13px 191px 13px;
     }
   }
   .price-sale{
@@ -64,6 +64,7 @@
       font-size: 14px;
       padding: 7px;
       height: 42px;
+      //white-space: nowrap;
     }
     @media (max-width: 360px){
       top: 30px;
@@ -371,7 +372,12 @@
     top: 115px;
     //height:374px;
     min-height: 374px;
-    height: min-content;
+    //height: min-content;
+    height: 410px;
+  }
+  @media (max-width: 360px){
+
+    height: 424px;
   }
   &__title{
     width: 290px;

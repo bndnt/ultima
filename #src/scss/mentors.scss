@@ -16,7 +16,7 @@
       padding: 0 0 40px;
     }
     @media (max-width: 650px){
-      padding: 58px 30px;
+      padding: 58px 23px;
     }
   }
  .span-hide{
@@ -36,7 +36,7 @@
       font-size: 46px;
     }
     @media (max-width: 1100px) {
-      margin-left: 20px;
+      margin-left: 23px;
     }
     @media (max-width: 991px){
       font-size: 42px;
@@ -47,6 +47,8 @@
     }
     @media (max-width: 650px){
       font-size: 40px;
+      padding-left: 0;
+      margin-left: 0;
     }
     span{
       color: #10AAFF;
@@ -74,6 +76,9 @@
   margin-left: calc( (100vw - 1080px)/2);
     @media (max-width: 1100px) {
       margin-left: 20px;
+    }
+    @media (max-width: 650px) {
+      margin-left: 0;
     }
   }
   &__slide{

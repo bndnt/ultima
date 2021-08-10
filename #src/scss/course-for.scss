@@ -288,6 +288,16 @@
       }
     }
   }
+  &__icon-ads{
+    img{
+      width: 50px;
+      height: 44.92px;
+      @media (max-width: 650px){
+        width: 30px;
+        height:25px;
+      }
+    }
+  }
   &__detail-icon-block-mobile{
    svg{
       @media (max-width: 650px){

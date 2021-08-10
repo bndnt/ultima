@@ -1069,6 +1069,11 @@ body {
   height: 22px;
 }
 
+.course-for__icon-ads img {
+  width: 50px;
+  height: 44.92px;
+}
+
 .course-for__icon-google-analytics svg {
   width: 30.65px;
   height: 34px;
@@ -1983,6 +1988,10 @@ body {
   display: flex;
 }
 
+.faq__flex:last-child .faq__question {
+  width: 400px;
+}
+
 .faq__question {
   width: -webkit-max-content;
   width: -moz-max-content;
@@ -2501,7 +2510,7 @@ body {
   }
 
   .footer__flex span:nth-child(2) {
-    margin: 0 35px;
+    margin: 0 35px !important;
   }
 
   .footer__soc-block {
@@ -2511,7 +2520,7 @@ body {
 
 @media (max-width: 1100px) {
   .mentors__title {
-    margin-left: 20px;
+    margin-left: 23px;
   }
 
   .mentors__slide-first {
@@ -2837,8 +2846,9 @@ body {
     font-size: 40px;
   }
 
-  .faq__question:last-child {
+  .faq__flex:last-child .faq__question {
     max-width: 252px;
+    width: 100%;
   }
 
   .faq__question {
@@ -3285,6 +3295,7 @@ body {
   .top-color .long-color {
     padding: 39px 25px;
     margin-top: -22px;
+    white-space: nowrap;
   }
 
   .top-color .long-color__text {
@@ -3424,6 +3435,11 @@ body {
     height: 11px;
   }
 
+  .course-for__icon-ads img {
+    width: 30px;
+    height: 25px;
+  }
+
   .course-for__detail-icon-block-mobile svg {
     width: 50% !important;
   }
@@ -3470,7 +3486,7 @@ body {
   }
 
   .mentors__wrapper {
-    padding: 58px 30px;
+    padding: 58px 23px;
   }
 
   .mentors .span-hide {
@@ -3479,11 +3495,17 @@ body {
 
   .mentors__title {
     font-size: 40px;
+    padding-left: 0;
+    margin-left: 0;
   }
 
   .mentors .mentorsSwiper {
     height: 306px;
     margin-top: 19px;
+  }
+
+  .mentors__slide-first {
+    margin-left: 0;
   }
 
   .mentors__slide {
@@ -3633,7 +3655,7 @@ body {
   }
 
   .price__wrapper {
-    padding: 25px 13px 164px 13px;
+    padding: 25px 13px 191px 13px;
   }
 
   .price .price-sale {
@@ -3720,9 +3742,7 @@ body {
     padding: 20px 26px 19px;
     top: 115px;
     min-height: 374px;
-    height: -webkit-min-content;
-    height: -moz-min-content;
-    height: min-content;
+    height: 410px;
   }
 
   .price-form__title {
@@ -3989,6 +4009,10 @@ body {
 
   .price__under-old-price {
     font-size: 15px;
+  }
+
+  .price-form {
+    height: 424px;
   }
 
   .faq__title {

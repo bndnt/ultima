@@ -48,6 +48,15 @@
     margin-top: 23px;
   }
   &__flex{
+    &:last-child {
+      .faq__question {
+        width: 400px;
+        @media (max-width: 991px) {
+          max-width: 252px;
+          width: 100%;
+        }
+      }
+    }
     span{
 
     }
@@ -80,11 +89,7 @@
     cursor: pointer;
     transition: all .6s;
     font-family: 'Gilroy-Bold';
-    &:last-child{
-      @media (max-width: 991px) {
-       max-width: 252px;
-      }
-    }
+
     .br-mob{
       display: none;
       @media (max-width: 650px) {
