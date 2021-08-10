@@ -35,8 +35,6 @@
     background: linear-gradient(90deg, #05DFFC 0%, #5EF3C1 100%);
     border-radius: 0 15px 15px 0;
     font-style: normal;
-    //font-weight: normal;
-    //font-family: 'CodecPro-ExtraBold';
     font-size: 26px;
     line-height: 140%;
     color: #000000;
@@ -59,6 +57,8 @@
       height: 70px;
     }
     @media (max-width: 650px){
+      width: 62vw;
+
       border-radius: 9px;
       top: 30px;
       font-size: 14px;
@@ -339,8 +339,6 @@
     font-size: 17px;
     line-height: 140%;
     /* identical to box height, or 24px */
-
-
     color: rgba(255, 255, 255, 0.6);
   }
 }

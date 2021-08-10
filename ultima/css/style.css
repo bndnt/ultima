@@ -231,17 +231,17 @@ select {
 }
 
 @font-face {
-  font-family: "Code-Pro";
+  font-family: "Code-Pro-Light";
   font-display: swap;
-  src: url("../fonts/Code-Pro.woff") format("woff"), url("../fonts/Code-Pro.woff2") format("woff2");
+  src: url("../fonts/Code-Pro-Light.woff") format("woff"), url("../fonts/Code-Pro-Light.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Code-Pro-Light";
+  font-family: "Code-Pro";
   font-display: swap;
-  src: url("../fonts/Code-Pro-Light.woff") format("woff"), url("../fonts/Code-Pro-Light.woff2") format("woff2");
+  src: url("../fonts/Code-Pro.woff") format("woff"), url("../fonts/Code-Pro.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
@@ -1525,10 +1525,6 @@ body {
   -webkit-transition: all .4s;
   -o-transition: all .4s;
   transition: all .4s;
-}
-
-.course-works__title:hover {
-  color: #167fb9;
 }
 
 .course-works__text {
@@ -3078,6 +3074,10 @@ body {
     top: 0;
   }
 
+  .course-works__title:hover {
+    color: #167fb9;
+  }
+
   .course-works__title {
     cursor: pointer;
     width: 100%;
@@ -3259,7 +3259,7 @@ body {
 
   .top-color__image {
     display: none;
-    top: 32%;
+    top: 130px;
     width: 247.65px;
     height: 240px;
     right: -30px;
@@ -3289,7 +3289,6 @@ body {
     font-size: 16px;
     margin-top: 15px;
     max-width: 100%;
-    font-family: 'CodecPro-News';
   }
 
   .top-color .long-color {
@@ -3659,6 +3658,7 @@ body {
   }
 
   .price .price-sale {
+    width: 62vw;
     border-radius: 9px;
     top: 30px;
     font-size: 14px;
@@ -3862,11 +3862,6 @@ body {
 }
 
 @media (max-width: 500px) {
-  .top-color__image {
-    top: auto;
-    bottom: 0;
-  }
-
   .course-for .br-adapt {
     display: block;
   }
@@ -3915,6 +3910,13 @@ body {
   }
 }
 
+@media (max-width: 400px) {
+  .top-color__wrapper {
+    padding-bottom: 170px;
+    height: 365px;
+  }
+}
+
 @media (max-width: 386px) {
   .top-color__text {
     max-width: 100%;
@@ -3944,10 +3946,6 @@ body {
 }
 
 @media (max-width: 360px) {
-  .top-color__wrapper {
-    padding-bottom: 195px;
-  }
-
   .top-color__menu-point {
     font-size: 14px;
   }
@@ -4044,12 +4042,6 @@ body {
     line-height: 17px;
     margin-right: 7px;
     width: 120px;
-  }
-}
-
-@media (max-width: 351px) {
-  .top-color__wrapper {
-    padding-bottom: 179px;
   }
 }
 

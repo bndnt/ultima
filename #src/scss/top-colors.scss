@@ -36,11 +36,15 @@
       background-image: url("../img/bg-color-top-adapt.jpg");
       border-radius: 20px;
     }
-    @media (max-width: 360px){
-      padding-bottom: 195px;
+    //@media (max-width: 360px){
+    //  padding-bottom: 166px;
+    //}
+    @media (max-width: 400px){
+      padding-bottom: 170px;
+      height: 365px;
     }
     @media (max-width: 351px){
-      padding-bottom: 179px;
+      //padding-bottom: 168px;
     }
   }
   &__image{
@@ -76,15 +80,15 @@
     }
     @media (max-width: 650px){
       display: none;
-      top: 32%;
+      top: 130px;
       width: 247.65px;
       height: 240px;
       right: -30px;
     }
-    @media (max-width: 500px){
-      top: auto;
-      bottom: 0;
-    }
+    //@media (max-width: 500px){
+    //  top: auto;
+    //  bottom: 0;
+    //}
     img{
       width: 100%;
       height: 100%;
@@ -192,7 +196,7 @@
       font-size: 16px;
       margin-top: 15px;
       max-width:100%;
-      font-family: 'CodecPro-News';
+      //font-family: 'CodecPro-News';
     }
     @media (max-width: 386px){
       max-width: 100%;

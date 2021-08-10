@@ -40,21 +40,21 @@ $(document).on('click', '.get-to-know__top-item', function (e) {
 //     document.querySelector('.js-get-to-know__hide-whole-block').classList.toggle('active')
 // })
 
-
-$(document).on('click', '.course-works__title', function (e) {
-    if ($(this).parents('.course-works__info-flex').hasClass('active')) {
-        // console.log(1)
-        $(this).parents('.course-works__info-flex').removeClass('active');
-        $(this).siblings('.course-works__text').hide(300);
-    } else {
-        // console.log(2)
-        $(this).parents('.course-works__info-flex').siblings().removeClass('active');
-        $(this).parents('.course-works__info-flex').siblings().find('.course-works__text').slideUp();
-        $(this).parents('.course-works__info-flex').addClass('active');
-        $(this).siblings('.course-works__text').show(300);
-    }
-});
-
+if ($(window).width() > 769) {
+    $(document).on('click', '.course-works__title', function (e) {
+        if ($(this).parents('.course-works__info-flex').hasClass('active')) {
+            // console.log(1)
+            $(this).parents('.course-works__info-flex').removeClass('active');
+            $(this).siblings('.course-works__text').hide(300);
+        } else {
+            // console.log(2)
+            $(this).parents('.course-works__info-flex').siblings().removeClass('active');
+            $(this).parents('.course-works__info-flex').siblings().find('.course-works__text').slideUp();
+            $(this).parents('.course-works__info-flex').addClass('active');
+            $(this).siblings('.course-works__text').show(300);
+        }
+    });
+}
 var swiper1 = new Swiper(".mentorsSwiper", {
     slidesPerView: 'auto',
     spaceBetween: 80,
@@ -125,3 +125,11 @@ if ($(window).width() > 769) {
 //         });
 //     })
 // }
+$(document).ready(function(){
+    $("#fixed").on("click","a", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+        top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 1500);
+    });
+});
