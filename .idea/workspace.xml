@@ -3,18 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="50f78d95-a9ba-46b9-a6c5-65b4588b5b0a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/#src/_course-for.html" beforeDir="false" afterPath="$PROJECT_DIR$/#src/_course-for.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/img/course-works.svg" beforeDir="false" afterPath="$PROJECT_DIR$/#src/img/course-works.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/scss/course-for.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#src/scss/course-for.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/scss/faq.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#src/scss/faq.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/scss/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#src/scss/footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/scss/mentors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#src/scss/mentors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/scss/price.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#src/scss/price.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/scss/top-colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#src/scss/top-colors.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ultima/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/ultima/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ultima/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/ultima/css/style.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ultima/img/course-works.svg" beforeDir="false" afterPath="$PROJECT_DIR$/ultima/img/course-works.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ultima/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ultima/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +74,7 @@
       <workItem from="1628165812796" duration="647000" />
       <workItem from="1628172924175" duration="10283000" />
       <workItem from="1628238851792" duration="66794000" />
-      <workItem from="1628409379381" duration="52720000" />
+      <workItem from="1628409379381" duration="53268000" />
     </task>
     <servers />
   </component>
