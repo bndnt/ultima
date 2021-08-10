@@ -1,3 +1,45 @@
+var mainFormProcessing = false,
+    mainFormSent = false;
+
+$('#main-form').submit(function(e) {
+    e.preventDefault();
+
+    if (mainFormProcessing || mainFormSent) return;
+
+    var $form = $(this);
+
+    mainFormProcessing = true;
+
+    $(this).find('button[type="submit"]').prop('disabled', true);
+
+    var data = {
+        name: $('#first').val(),
+        tel: $('#second').val(),
+        email: $('#third').val()
+    };
+
+    $.ajax({
+        method: 'post',
+        data: data,
+        url: '/marketing-digital/process.php',
+        success: function() {
+            mainFormSent = true;
+            mainFormProcessing = false;
+
+            $form.find('button[type="submit"]').prop('disabled', false);
+
+            window.location = 'https://payment.ultima.school/design-thanks.html';
+        },
+        error: function() {
+            mainFormProcessing = false;
+
+            $form.find('button[type="submit"]').prop('disabled', false);
+
+            alert('Something went wrong :( Try again later.');
+        }
+    });
+});
+
 $(document).on('click', '.course-for__det-top ', function (e) {
     if ($(this).parents('.answer__item').hasClass('active')) {
         // console.log(1)
