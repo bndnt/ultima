@@ -77,6 +77,12 @@ class GetResponseService
                 ]
             ]
         );
+
+        $statusCode = $response->getStatusCode();
+
+        if ($statusCode >= 400) {
+            throw new Exception(json_encode($response->getBody()->getContents()));
+        }
     }
 }
 
