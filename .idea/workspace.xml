@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50f78d95-a9ba-46b9-a6c5-65b4588b5b0a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="50f78d95-a9ba-46b9-a6c5-65b4588b5b0a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,7 +25,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ultima/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/#src/img" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -39,16 +37,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/#src/img" />
+      <recent name="$PROJECT_DIR$/#src/scss" />
       <recent name="$PROJECT_DIR$/ultima/js" />
       <recent name="$PROJECT_DIR$/#src/js" />
-      <recent name="$PROJECT_DIR$/#src/img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/#src" />
       <recent name="$PROJECT_DIR$/#src/img" />
       <recent name="$PROJECT_DIR$/#src/img/computer-main2.png" />
       <recent name="$PROJECT_DIR$/#src/img/Object/Object" />
       <recent name="$PROJECT_DIR$/#src/img/Object" />
-      <recent name="$PROJECT_DIR$/#src/fonts" />
     </key>
   </component>
   <component name="RunManager">
@@ -76,6 +75,11 @@
       <workItem from="1628409379381" duration="54174000" />
       <workItem from="1628588111707" duration="2418000" />
       <workItem from="1628597711868" duration="3309000" />
+      <workItem from="1628610281298" duration="619000" />
+      <workItem from="1628690447564" duration="1000" />
+      <workItem from="1628690519312" duration="11000" />
+      <workItem from="1628690654457" duration="34000" />
+      <workItem from="1628690797114" duration="646000" />
     </task>
     <servers />
   </component>
