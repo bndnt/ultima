@@ -145,6 +145,12 @@
       width: calc(100% - 26px);
     }
   }
+  &__detail-text-paragraph{
+    margin-top: 10px;
+    @media (max-width: 768px) {
+      margin-top: 6px;
+    }
+  }
   &__detail-text{
     font-family: 'CodecPro-News';
   }

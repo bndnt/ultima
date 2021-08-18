@@ -175,9 +175,17 @@ select {
 }
 
 @font-face {
-  font-family: "Code-Pro-Black-LC";
+  font-family: "Code-Pro-Black";
   font-display: swap;
-  src: url("../fonts/Code-Pro-Black-LC.woff") format("woff"), url("../fonts/Code-Pro-Black-LC.woff2") format("woff2");
+  src: url("../fonts/Code-Pro-Black.woff") format("woff"), url("../fonts/Code-Pro-Black.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Code-Pro-Bold-LC";
+  font-display: swap;
+  src: url("../fonts/Code-Pro-Bold-LC.woff") format("woff"), url("../fonts/Code-Pro-Bold-LC.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
@@ -191,17 +199,17 @@ select {
 }
 
 @font-face {
-  font-family: "Code-Pro-Black";
+  font-family: "Code-Pro-LC";
   font-display: swap;
-  src: url("../fonts/Code-Pro-Black.woff") format("woff"), url("../fonts/Code-Pro-Black.woff2") format("woff2");
+  src: url("../fonts/Code-Pro-LC.woff") format("woff"), url("../fonts/Code-Pro-LC.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Code-Pro-Bold-LC";
+  font-family: "Code-Pro-Light-Demo";
   font-display: swap;
-  src: url("../fonts/Code-Pro-Bold-LC.woff") format("woff"), url("../fonts/Code-Pro-Bold-LC.woff2") format("woff2");
+  src: url("../fonts/Code-Pro-Light-Demo.woff") format("woff"), url("../fonts/Code-Pro-Light-Demo.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
@@ -223,25 +231,9 @@ select {
 }
 
 @font-face {
-  font-family: "Code-Pro-Light-Demo";
-  font-display: swap;
-  src: url("../fonts/Code-Pro-Light-Demo.woff") format("woff"), url("../fonts/Code-Pro-Light-Demo.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
   font-family: "Code-Pro";
   font-display: swap;
   src: url("../fonts/Code-Pro.woff") format("woff"), url("../fonts/Code-Pro.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Code-Pro-LC";
-  font-display: swap;
-  src: url("../fonts/Code-Pro-LC.woff") format("woff"), url("../fonts/Code-Pro-LC.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
@@ -367,14 +359,6 @@ select {
 }
 
 @font-face {
-  font-family: "CodecPro-Ultra";
-  font-display: swap;
-  src: url("../fonts/CodecPro-Ultra.woff") format("woff"), url("../fonts/CodecPro-Ultra.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
   font-family: "CodecPro-UltraBlack";
   font-display: swap;
   src: url("../fonts/CodecPro-UltraBlack.woff") format("woff"), url("../fonts/CodecPro-UltraBlack.woff2") format("woff2");
@@ -386,6 +370,14 @@ select {
   font-family: "CodecPro-UltraBlackItalic";
   font-display: swap;
   src: url("../fonts/CodecPro-UltraBlackItalic.woff") format("woff"), url("../fonts/CodecPro-UltraBlackItalic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "CodecPro-Ultra";
+  font-display: swap;
+  src: url("../fonts/CodecPro-Ultra.woff") format("woff"), url("../fonts/CodecPro-Ultra.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
@@ -439,9 +431,9 @@ select {
 }
 
 @font-face {
-  font-family: "Gilroy-Medium";
+  font-family: "Code-Pro-Black-LC";
   font-display: swap;
-  src: url("../fonts/Gilroy-Medium.woff") format("woff"), url("../fonts/Gilroy-Medium.woff2") format("woff2");
+  src: url("../fonts/Code-Pro-Black-LC.woff") format("woff"), url("../fonts/Code-Pro-Black-LC.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
@@ -471,9 +463,9 @@ select {
 }
 
 @font-face {
-  font-family: "Gilroy-UltraLight";
+  font-family: "Gilroy-Medium";
   font-display: swap;
-  src: url("../fonts/Gilroy-UltraLight.woff") format("woff"), url("../fonts/Gilroy-UltraLight.woff2") format("woff2");
+  src: url("../fonts/Gilroy-Medium.woff") format("woff"), url("../fonts/Gilroy-Medium.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
@@ -506,6 +498,14 @@ select {
   font-family: "PTRootUI-Regular";
   font-display: swap;
   src: url("../fonts/PTRootUI-Regular.woff") format("woff"), url("../fonts/PTRootUI-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy-UltraLight";
+  font-display: swap;
+  src: url("../fonts/Gilroy-UltraLight.woff") format("woff"), url("../fonts/Gilroy-UltraLight.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
@@ -982,6 +982,10 @@ body {
 .course-for__det-visible {
   position: relative;
   width: calc(100% - 100px);
+}
+
+.course-for__detail-text-paragraph {
+  margin-top: 10px;
 }
 
 .course-for__detail-text {
@@ -3080,6 +3084,10 @@ body {
 
   .course-for__det-visible {
     width: calc(100% - 30px);
+  }
+
+  .course-for__detail-text-paragraph {
+    margin-top: 6px;
   }
 
   .course-for__detail-title {
