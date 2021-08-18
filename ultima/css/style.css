@@ -175,17 +175,9 @@ select {
 }
 
 @font-face {
-  font-family: "Code-Pro-Black";
+  font-family: "Code-Pro-Black-LC";
   font-display: swap;
-  src: url("../fonts/Code-Pro-Black.woff") format("woff"), url("../fonts/Code-Pro-Black.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Code-Pro-LC";
-  font-display: swap;
-  src: url("../fonts/Code-Pro-LC.woff") format("woff"), url("../fonts/Code-Pro-LC.woff2") format("woff2");
+  src: url("../fonts/Code-Pro-Black-LC.woff") format("woff"), url("../fonts/Code-Pro-Black-LC.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
@@ -199,9 +191,17 @@ select {
 }
 
 @font-face {
-  font-family: "Code-Pro-Light-Demo";
+  font-family: "Code-Pro-Black";
   font-display: swap;
-  src: url("../fonts/Code-Pro-Light-Demo.woff") format("woff"), url("../fonts/Code-Pro-Light-Demo.woff2") format("woff2");
+  src: url("../fonts/Code-Pro-Black.woff") format("woff"), url("../fonts/Code-Pro-Black.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Code-Pro-Bold-LC";
+  font-display: swap;
+  src: url("../fonts/Code-Pro-Bold-LC.woff") format("woff"), url("../fonts/Code-Pro-Bold-LC.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
@@ -223,9 +223,25 @@ select {
 }
 
 @font-face {
+  font-family: "Code-Pro-Light-Demo";
+  font-display: swap;
+  src: url("../fonts/Code-Pro-Light-Demo.woff") format("woff"), url("../fonts/Code-Pro-Light-Demo.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
   font-family: "Code-Pro";
   font-display: swap;
   src: url("../fonts/Code-Pro.woff") format("woff"), url("../fonts/Code-Pro.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Code-Pro-LC";
+  font-display: swap;
+  src: url("../fonts/Code-Pro-LC.woff") format("woff"), url("../fonts/Code-Pro-LC.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
@@ -311,17 +327,17 @@ select {
 }
 
 @font-face {
-  font-family: "CodecPro-News";
+  font-family: "CodecPro-LightItalic";
   font-display: swap;
-  src: url("../fonts/CodecPro-News.woff") format("woff"), url("../fonts/CodecPro-News.woff2") format("woff2");
+  src: url("../fonts/CodecPro-LightItalic.woff") format("woff"), url("../fonts/CodecPro-LightItalic.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "CodecPro-LightItalic";
+  font-family: "CodecPro-News";
   font-display: swap;
-  src: url("../fonts/CodecPro-LightItalic.woff") format("woff"), url("../fonts/CodecPro-LightItalic.woff2") format("woff2");
+  src: url("../fonts/CodecPro-News.woff") format("woff"), url("../fonts/CodecPro-News.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
@@ -343,6 +359,14 @@ select {
 }
 
 @font-face {
+  font-family: "CodecPro-ThinItalic";
+  font-display: swap;
+  src: url("../fonts/CodecPro-ThinItalic.woff") format("woff"), url("../fonts/CodecPro-ThinItalic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
   font-family: "CodecPro-Ultra";
   font-display: swap;
   src: url("../fonts/CodecPro-Ultra.woff") format("woff"), url("../fonts/CodecPro-Ultra.woff2") format("woff2");
@@ -359,33 +383,9 @@ select {
 }
 
 @font-face {
-  font-family: "Code-Pro-Black-LC";
-  font-display: swap;
-  src: url("../fonts/Code-Pro-Black-LC.woff") format("woff"), url("../fonts/Code-Pro-Black-LC.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
   font-family: "CodecPro-UltraBlackItalic";
   font-display: swap;
   src: url("../fonts/CodecPro-UltraBlackItalic.woff") format("woff"), url("../fonts/CodecPro-UltraBlackItalic.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Code-Pro-Bold-LC";
-  font-display: swap;
-  src: url("../fonts/Code-Pro-Bold-LC.woff") format("woff"), url("../fonts/Code-Pro-Bold-LC.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Gilroy-Black";
-  font-display: swap;
-  src: url("../fonts/Gilroy-Black.woff") format("woff"), url("../fonts/Gilroy-Black.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
@@ -399,9 +399,9 @@ select {
 }
 
 @font-face {
-  font-family: "Gilroy-ExtraBold";
+  font-family: "Gilroy-Black";
   font-display: swap;
-  src: url("../fonts/Gilroy-ExtraBold.woff") format("woff"), url("../fonts/Gilroy-ExtraBold.woff2") format("woff2");
+  src: url("../fonts/Gilroy-Black.woff") format("woff"), url("../fonts/Gilroy-Black.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
@@ -410,6 +410,14 @@ select {
   font-family: "Gilroy-Bold";
   font-display: swap;
   src: url("../fonts/Gilroy-Bold.woff") format("woff"), url("../fonts/Gilroy-Bold.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy-ExtraBold";
+  font-display: swap;
+  src: url("../fonts/Gilroy-ExtraBold.woff") format("woff"), url("../fonts/Gilroy-ExtraBold.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
@@ -442,14 +450,6 @@ select {
   font-family: "Gilroy-Regular";
   font-display: swap;
   src: url("../fonts/Gilroy-Regular.woff") format("woff"), url("../fonts/Gilroy-Regular.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "CodecPro-ThinItalic";
-  font-display: swap;
-  src: url("../fonts/CodecPro-ThinItalic.woff") format("woff"), url("../fonts/CodecPro-ThinItalic.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
@@ -495,17 +495,17 @@ select {
 }
 
 @font-face {
-  font-family: "PTRootUI-Regular";
+  font-family: "PTRootUI-Medium";
   font-display: swap;
-  src: url("../fonts/PTRootUI-Regular.woff") format("woff"), url("../fonts/PTRootUI-Regular.woff2") format("woff2");
+  src: url("../fonts/PTRootUI-Medium.woff") format("woff"), url("../fonts/PTRootUI-Medium.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "PTRootUI-Medium";
+  font-family: "PTRootUI-Regular";
   font-display: swap;
-  src: url("../fonts/PTRootUI-Medium.woff") format("woff"), url("../fonts/PTRootUI-Medium.woff2") format("woff2");
+  src: url("../fonts/PTRootUI-Regular.woff") format("woff"), url("../fonts/PTRootUI-Regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
@@ -858,7 +858,7 @@ body {
   font-style: normal;
   font-weight: 600;
   font-family: 'CodecPro-ExtraBold';
-  font-size: 60px;
+  font-size: 35px;
   line-height: 157%;
   color: #23A2E8;
   margin-top: 51px;
@@ -866,8 +866,12 @@ body {
   white-space: nowrap;
 }
 
+.boost-sales__numbers-title .br-long-text-mob {
+  display: none;
+}
+
 .boost-sales__numbers-title span {
-  font-size: 123px;
+  font-size: 90px;
   line-height: 193px;
 }
 
@@ -2419,6 +2423,24 @@ body {
   }
 }
 
+@media (max-width: 1250px) {
+  .boost-sales__numbers-title {
+    font-size: 32px;
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .boost-sales__numbers-title span {
+    font-size: 68px;
+    line-height: 120%;
+  }
+
+  .boost-sales__right-text {
+    margin-right: 0;
+    margin-top: 0;
+  }
+}
+
 @media (max-width: 1200px) {
   .top-color__wrapper {
     padding: 55px 48px 75px;
@@ -2469,10 +2491,6 @@ body {
 
   .top-color .under-points__text {
     font-size: 15px;
-  }
-
-  .boost-sales__numbers-title {
-    font-size: 42px;
   }
 
   .course-for__title {
@@ -2678,11 +2696,11 @@ body {
 
   .boost-sales__numbers-title {
     margin-top: 40px;
-    font-size: 42px;
+    font-size: 24px;
   }
 
   .boost-sales__numbers-title span {
-    font-size: 90px;
+    font-size: 54px;
     line-height: 120%;
   }
 
@@ -3036,16 +3054,23 @@ body {
   }
 
   .boost-sales__numbers-title {
-    font-size: 36px;
+    font-size: 22px;
+    text-align: center;
   }
 
   .boost-sales__numbers-title span {
-    font-size: 60px;
+    font-size: 48px;
     font-family: 'CodecPro-ExtraBold';
+    display: block !important;
+    text-align: center;
   }
 
   .boost-sales__right-text {
     font-size: 16px;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 
   .course-for__title {
@@ -3446,14 +3471,19 @@ body {
 
   .boost-sales__numbers-title {
     text-align: center;
-    font-size: 34px;
+    font-size: 20px;
     display: block;
+    white-space: normal;
     margin-top: 33px;
+  }
+
+  .boost-sales__numbers-title .br-long-text-mob {
+    display: block;
   }
 
   .boost-sales__numbers-title span {
     text-align: center;
-    font-size: 59px;
+    font-size: 42px;
     display: block !important;
   }
 
