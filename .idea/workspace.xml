@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50f78d95-a9ba-46b9-a6c5-65b4588b5b0a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/#src/_course-for.html" beforeDir="false" afterPath="$PROJECT_DIR$/#src/_course-for.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/scss/course-for.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#src/scss/course-for.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/_price.html" beforeDir="false" afterPath="$PROJECT_DIR$/#src/_price.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/_top-block.html" beforeDir="false" afterPath="$PROJECT_DIR$/#src/_top-block.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/#src/scss/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#src/scss/fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_08_2021,_17_24_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_08_2021__17_24__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ultima/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/ultima/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ultima/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/ultima/css/style.min.css" afterDir="false" />
@@ -90,7 +92,8 @@
       <workItem from="1628690797114" duration="646000" />
       <workItem from="1629204071507" duration="1426000" />
       <workItem from="1629272232320" duration="1059000" />
-      <workItem from="1629277412390" duration="119000" />
+      <workItem from="1629277412390" duration="438000" />
+      <workItem from="1629895261630" duration="261000" />
     </task>
     <servers />
   </component>
