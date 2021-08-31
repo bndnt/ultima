@@ -175,6 +175,14 @@ select {
 }
 
 @font-face {
+  font-family: "Code-Pro-Black";
+  font-display: swap;
+  src: url("../fonts/Code-Pro-Black.woff") format("woff"), url("../fonts/Code-Pro-Black.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
   font-family: "Code-Pro-Black-LC";
   font-display: swap;
   src: url("../fonts/Code-Pro-Black-LC.woff") format("woff"), url("../fonts/Code-Pro-Black-LC.woff2") format("woff2");
@@ -186,14 +194,6 @@ select {
   font-family: "Code-Pro-Bold-LC";
   font-display: swap;
   src: url("../fonts/Code-Pro-Bold-LC.woff") format("woff"), url("../fonts/Code-Pro-Bold-LC.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Code-Pro-Black";
-  font-display: swap;
-  src: url("../fonts/Code-Pro-Black.woff") format("woff"), url("../fonts/Code-Pro-Black.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
@@ -375,17 +375,17 @@ select {
 }
 
 @font-face {
-  font-family: "CodecPro-UltraBlack";
+  font-family: "CodecPro-UltraBlackItalic";
   font-display: swap;
-  src: url("../fonts/CodecPro-UltraBlack.woff") format("woff"), url("../fonts/CodecPro-UltraBlack.woff2") format("woff2");
+  src: url("../fonts/CodecPro-UltraBlackItalic.woff") format("woff"), url("../fonts/CodecPro-UltraBlackItalic.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "CodecPro-UltraBlackItalic";
+  font-family: "CodecPro-UltraBlack";
   font-display: swap;
-  src: url("../fonts/CodecPro-UltraBlackItalic.woff") format("woff"), url("../fonts/CodecPro-UltraBlackItalic.woff2") format("woff2");
+  src: url("../fonts/CodecPro-UltraBlack.woff") format("woff"), url("../fonts/CodecPro-UltraBlack.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
@@ -3802,7 +3802,7 @@ body {
   }
 
   .price .price-sale strong {
-    font-size: 20px;
+    font-size: 14px;
   }
 
   .price__title {
@@ -4133,7 +4133,7 @@ body {
   }
 
   .price .price-sale strong {
-    font-size: 17px;
+    font-size: 14px;
   }
 
   .price__title {
